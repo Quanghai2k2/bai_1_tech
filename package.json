@@ -1,0 +1,17 @@
+{
+  "name": "bai_taptech1",
+  "version": "1.0.0",
+  "description": "quanghai",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.3.5"
+  }
+}
